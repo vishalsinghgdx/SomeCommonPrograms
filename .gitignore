@@ -11,6 +11,8 @@
 *.user
 *.userosscache
 *.sln.docstates
+*.sln
+*csproj
 
 [Dd]ebug/
 [Dd]ebugPublic/
