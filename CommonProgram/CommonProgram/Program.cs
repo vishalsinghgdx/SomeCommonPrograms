@@ -1,5 +1,7 @@
 ﻿using System;
-
+/// <summary>
+/// Smallest positive number that is evenly divisible by all of the numbers from 1 to 10
+/// </summary>
 namespace CommonProgram
 {
     class Program
