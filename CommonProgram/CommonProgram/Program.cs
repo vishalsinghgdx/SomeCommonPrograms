@@ -8,8 +8,8 @@ namespace CommonProgram
         {
             //SmallestPostionNumber.SmallestDivisible();
             //LargestPalimdrome.CheckLargestPalimdrome();
-
-            SumSquareDifference.FindSumSquareDifference(100);
+            //SumSquareDifference.FindSumSquareDifference(100);
+            PrimeNumber.CheckPrime(421);
 
             Console.ReadLine();
         }
