@@ -6,8 +6,11 @@ namespace CommonProgram
     {
         static void Main(string[] args)
         {
-           SmallestPostionNumber.SmallestDivisible();
+            //SmallestPostionNumber.SmallestDivisible();
+            LargestPalimdrome.CheckLargestPalimdrome();
+
             Console.ReadLine();
         }
     }
+
 }
