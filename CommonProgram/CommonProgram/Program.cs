@@ -7,10 +7,11 @@ namespace CommonProgram
         static void Main(string[] args)
         {
             //SmallestPostionNumber.SmallestDivisible();
-            LargestPalimdrome.CheckLargestPalimdrome();
+            //LargestPalimdrome.CheckLargestPalimdrome();
+
+            SumSquareDifference.FindSumSquareDifference(100);
 
             Console.ReadLine();
         }
     }
-
 }
