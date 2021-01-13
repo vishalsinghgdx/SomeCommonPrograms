@@ -9,7 +9,10 @@ namespace CommonProgram
             //SmallestPostionNumber.SmallestDivisible();
             //LargestPalimdrome.CheckLargestPalimdrome();
             //SumSquareDifference.FindSumSquareDifference(100);
-            PrimeNumber.CheckPrime(421);
+            //PrimeNumber.CheckPrime(421);
+            //FindNthPrime.Prime(20);
+            //ReverseString.ReverseByStoring();
+            ReverseString.ReverseBySwapping();
 
             Console.ReadLine();
         }
