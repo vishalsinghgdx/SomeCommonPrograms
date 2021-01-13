@@ -1,16 +1,16 @@
 ﻿using System;
 
 /// <summary>
-/// Program for reversing a string
+/// Program for reversing a string array
 /// </summary>
 namespace CommonProgram
 {
-    class ReverseString
+    class ReverseStringArray
     {
         static string[] names = { "AA", "BB", "CC", "DD", "EE", "FF" };
 
         /// <summary>
-        /// Reverse string by storing in temporary array
+        /// Reverse string array by storing in temporary array
         /// </summary>
         public static void ReverseByStoring()
         {
@@ -36,7 +36,7 @@ namespace CommonProgram
             }
         }
 
-        // Reverses string by swapping
+        // Reverses string array by swapping
         public static void ReverseBySwapping()
         {
             string temp = "";
