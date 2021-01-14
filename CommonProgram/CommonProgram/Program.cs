@@ -12,7 +12,10 @@ namespace CommonProgram
             //PrimeNumber.CheckPrime(421);
             //FindNthPrime.Prime(20);
             //ReverseString.ReverseByStoring();
-            ReverseStringArray.ReverseBySwapping();
+            //ReverseStringArray.ReverseBySwapping();
+
+            //ReverseString.Reverse();
+            ReverseString.Reverse2();
 
             Console.ReadLine();
         }
