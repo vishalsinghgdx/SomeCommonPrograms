@@ -109,9 +109,54 @@ namespace CommonProgram
             last = current;
         }
 
-        public void Remove(int item)
+        public int RemoveAtIndex(int index)
         {
+            if (isEmpty())
+                throw new InvalidOperationException();
 
+            if(first == last)
+            {
+                first = last = null;
+                return 1;
+            }
+
+            if(index == 0)
+            {
+                RemoveFirst();
+                return 1;
+            }
+
+            int count = 0;
+            var current = first;
+            while(current != null)
+            {
+                if(count == index-1)
+                {
+                    break;
+                }
+                count++;
+                current = current.next;                
+            }
+
+            if(current == last)
+            {
+                RemoveLast();
+                return 1;
+            }
+
+            if(current.next == last)
+            {
+                current.next = null;
+                last = current;
+                return 1;
+            }
+            else
+            {
+                var current1 = current.next.next;
+                current.next = null;
+                current.next = current1;
+                return 1;
+            }
         }
              
 
