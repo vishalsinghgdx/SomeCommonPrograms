@@ -7,7 +7,7 @@ namespace Simple_Programming_Problems
         static void Main(string[] args)
         {
             SwapTwoNumbers obj = new SwapTwoNumbers();
-            //obj.SwapWithThirdNum(1, 2);
+            obj.SwapWithThirdNum(1, 2);
             obj.SwapWithoutThirdNum(100, 250);
         }
     }
